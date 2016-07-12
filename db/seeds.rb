@@ -9,4 +9,4 @@ create_groups = for i in 1..20 do
                     for k in 1..30 do
                       Post.create!([group_id: "#{i}",content: "這是用種子建立的第 #{k} 個留言", user_id: "1"])
                     end
-                  end
+                end

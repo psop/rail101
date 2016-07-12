@@ -10,9 +10,9 @@ Rails.application.routes.draw do
     member do
       post :join
       post :quit
-    end
+  end
 
-    resources :posts
+  resources :posts
   end
   
   root 'groups#index'
